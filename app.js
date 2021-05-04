@@ -91,7 +91,7 @@ const buildReply = (data, city, bloodGroup) => {
     var reply = "We found following data for blood group " + bloodGroup + " in " + city
         + "👇\n"
     data.forEach(doc => {
-        reply = reply + "Name : " + doc.name + "\n" + "No:" + doc.mobileNo + "\n\n"
+        reply = reply + "Name : " + doc.name + "\n" + "No : " + doc.mobileNo + "\n\n"
     });
     return reply;
 }
